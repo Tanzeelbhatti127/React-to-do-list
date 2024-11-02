@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #9699ce;
+}
+
+.main-container {
+  width: 30%;
+  margin: 40px auto;
+  background-color: #ced3fa;
+  border: 1px solid #696e95;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.input-box-todo {
+  width: 80%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #c0c7f8;
+  border-radius: 5px;
+}
+
+.add-btn {
+  background-color: #5b68bd;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.main-heading {
+  color: #333;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 40px;
+}
+
+.list-heading {
+  color: #333;
+  padding: 15px;
+}
+
+.list-container {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list-item {
+  padding: 25px;
+  border-bottom: 1px solid #b8bff6;
+  color: #333;
+  font-size: 18px;
+}
+
+/* .list-item:last-child {
+  border-bottom: none;
+} */
+
+.delete-icon {
+  float: right;
+  cursor: pointer;
+  margin-left: 20px;
+  font-size: 24px;
+  color: #5b68bd;
+}
+
+@media (max-width: 768px) {
+  .main-container {
+    width: 80%;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-container {
+    width: 90%;
+  }
+  .input-box-todo {
+    width: 70%;
+  }
+}
